@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>My Simple Calculator</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>--AC Basic Calculator--</h1>
+            <div id="output-window"></div>
+            <div id="result-window"></div>
+
+            <table>
+                <tr>
+                    <td>
+                        <button class="btn" data-type="clear" data-id="clear">
+                            AC
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn" data-type="negative" data-id="-">
+                            (+/-)
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn" data-type="percent" data-id="%">
+                            %
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn" data-type="operator" data-id="/">
+                            ÷
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="btn" data-type="number" data-id="1">
+                            1
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn" data-type="number" data-id="2">
+                            2
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn" data-type="number" data-id="3">
+                            3
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn" data-type="operator" data-id="*">
+                            *
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="btn" data-type="number" data-id="4">
+                            4
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn" data-type="number" data-id="5">
+                            5
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn" data-type="number" data-id="6">
+                            6
+                        </button>
+                    </td>
+                    <td>
+                        <button
+                            class="btn operator"
+                            data-type="operator"
+                            data-id="-"
+                        >
+                            -
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="btn" data-type="number" data-id="7">
+                            7
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn" data-type="number" data-id="8">
+                            8
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn" data-type="number" data-id="9">
+                            9
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn" data-type="operator" data-id="+">
+                            +
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="btn" data-type="number" data-id="0">
+                            0
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn" data-type="symbol" data-id=".">
+                            .
+                        </button>
+                    </td>
+                    <td colspan="2">
+                        <button class="btn" data-type="equal" data-id="=">
+                            =
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <script src="calculator.js"></script>
+    </body>
+</html>
